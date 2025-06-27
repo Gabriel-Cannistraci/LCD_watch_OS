@@ -6,6 +6,11 @@ I plan on making this readme doc better but I need to figure out how to do that.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+Idea for layout: lcd and modules on wrist like a watch, connected to pi on bottom of wrist, all secured with bad or something idk. Will add images when they are made
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Notes for use: 
   -  needs gpiozero 1.6, get this by reinstalling it as gpiozero<2.0
   -  only tested on pi 4 (for now) but feel free to test on other stuff, it should work fine
@@ -40,6 +45,9 @@ Features to add:
   -  limited web abilities, ie. connect to chatgpt
   -  vibration motor add on
   -  maybe add joystick support to be used instead of rotary encoder, or have both be available
+  -  not a feature but make sure it works with pi zero for smaller form factor
+  -  cooling somehow
+  -  left and right handed support
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
