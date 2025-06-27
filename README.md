@@ -1,13 +1,13 @@
-An idea to turn a raspberry pi (pi 4 in my case), 2x16 lcd screen (though should work with 4x16), a button, and rotary encoder into a watch type device with hotswappable modules. 
+An idea to turn a raspberry pi (pi 4 in my case), 2x16 or 4x16 lcd screen(see links section below), a button, and rotary encoder into a watch type device with hotswappable modules. 
 This is an 'OS' for this watch. 
 I want to make this as easy as possible for other people to add their own stuff for it.
 I plan on making some videos to talk about the process and how it works.
 I plan on making this readme doc better but I need to figure out how to do that.
+This is not an actual OS in the sense it was built from the ground up, instead it is a framework for custom modules and applications for a pi with a screen.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-Idea for layout: lcd and modules on wrist like a watch, connected to pi on bottom of wrist, all secured with bad or something idk. Will add images when they are made
+Idea for physical layout: lcd and modules on wrist like a watch, connected to pi on bottom of wrist, all secured with bad or something idk. Will add images when they are made
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
