@@ -9,6 +9,7 @@ I plan on making this readme doc better but I need to figure out how to do that.
 Notes for use: 
   -  needs gpiozero 1.6, get this by reinstalling it as gpiozero<2.0
   -  only tested on pi 4 (for now) but feel free to test on other stuff, it should work fine
+  -  only tested on 2x16 lcd (for) must be one that uses 5x8 bits
   -  rotary encoder is implimented but has no use yet
   -  rotary encoder should be the one that can also be clicked from the top (ie. a second button )
   -  button uses: on clock face short press stops clock, will have long press just no use yet, jump in DinoRunner
@@ -36,7 +37,21 @@ Features to add:
   -  opening sequence which goes to configurable face (time, other info, 'app' quickstart)
   -  after opening sequence scrollable menu to choose 'app', and choose which module is added
   -  send signals direct to lcd pixels for even easier custom characters (maybe possible but probably not)
+  -  limited web abilities, ie. connect to chatgpt
+  -  vibration motor add on
+  -  maybe add joystick support to be used instead of rotary encoder, or have both be available
     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+App/module ideas
+  -  music player, load on files and add on a speaker
+  -  weather app, put humiture module, ir, barometer, shows you stats
+  -  laser module
+  -  echolocation app, use distance sensor to tell you how far away the wall is
+  -  hall sensor (for fun idk)
+  -  fishing game, stardew valley idea where to have to match hook with fish icon movement, just a bunch of quicktime events
+  -  some game that uses outside sensors for stuff
+  -  flipper zero type functionality, at least for some uses
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Notes for building your own stuff: 
@@ -52,4 +67,3 @@ Important links
   -  4x16 lcd specifications: https://cdn.sparkfun.com/assets/9/5/f/7/b/HD44780.pdf
   -  gpiozero docs: https://gpiozero.readthedocs.io/en/stable/index.html
   -  another helpful lcd spec doc: https://ecelabs.njit.edu/fed101/resources/LCD%20display%20on%20Arduino.pdf
-  -   
